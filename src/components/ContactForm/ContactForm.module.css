@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 400px;
+    padding: 15px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.labelForm {
+    display: inline-flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.labelForm + .labelForm {
+    margin-top: 20px;
+}
+
+.inputForm {
+    height: 15px;
+    max-width: 170px;
+    margin-top: 10px;
+    border: 1px solid  rgb(211, 210, 210);
+}
+
+.inputForm:focus {
+    box-shadow: 0 0 5px 3px rgb(110, 206, 250);
+    border: none;
+    outline: none;
+}
+
+.btnForm {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 90px;
+    margin-top: 20px;
+    border: 0.5px solid  rgb(211, 210, 210);
+    border-radius: 5px;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+}

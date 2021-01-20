@@ -1,0 +1,22 @@
+.titleFilter {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFilter {
+    max-width: 160px;
+    margin-top: 5px;
+    border: 1px solid  rgb(211, 210, 210);
+}
+
+.inputFilter:focus {
+    box-shadow: 0 0 5px 3px rgb(110, 206, 250);
+    border: none;
+    outline: none;
+}
+
+.titleFilter {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
